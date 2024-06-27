@@ -1,0 +1,3 @@
+MODULE READLINE
+
+Permet de lire les entrées de l'utilisateur et d'interagir avec lui.

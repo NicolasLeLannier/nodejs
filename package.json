@@ -1,0 +1,20 @@
+{
+  "name": "cours-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "sayHello": "./bin/say-hello.js",
+    "sayBye": "./bin/say-goodBye.js"
+  },
+  "scripts": {
+    "start": "echo Salut && sleep 1 && node -e \"console.log('yeah')\"",
+    "coco": "cowsay hello"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}

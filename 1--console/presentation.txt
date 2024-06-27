@@ -1,0 +1,3 @@
+MODULE CONSOLE
+
+Permet d'afficher les messages dans la console (terminal) pour le débogage et le suivi de l'exécution du programme.

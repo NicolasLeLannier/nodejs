@@ -1,0 +1,5 @@
+EXERCICE READLINE
+
+1/ Le programme doit me proposer d'écrire une ligne
+2/ Le programme doit afficher la ligne que je viens de lui donner
+3/ On recommence à 1/ tant que le mot exit n'est pas entré

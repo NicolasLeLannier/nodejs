@@ -1,23 +1,10 @@
-const readline = require('readline');
+const rl = require("./initialisationReadline");
 
-// Création de l'interface readline
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
+console.log("Entrez autant de lignes souhaitées ('exit' pour quitter)");
+
+rl.on("line", (line) => {
+  if (line === "exit") {
+    return rl.close();
+  }
+  console.log(`Ligne entrée: ${line}`);
 });
-
-// Fonction pour poser une question à l'utilisateur
-function askQuestion() {
-  rl.question('Écrivez une ligne (ou tapez "exit" pour quitter) : ', (answer) => {
-    if (answer.trim().toLowerCase() === 'exit') {
-      console.log('Au revoir!');
-      rl.close();
-    } else {
-      console.log(`Vous avez écrit : ${answer}`);
-      askQuestion(); // On recommence à poser la question
-    }
-  });
-}
-
-// Démarrer le processus en posant la première question
-askQuestion();

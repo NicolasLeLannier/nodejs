@@ -1,0 +1,7 @@
+2024-06-28T08:15:55.599Z - LOG: Contenu du fichier
+2024-06-28T08:15:55.600Z - LOG: Ceci est un texte écrit dans le fichier.
+Texte additionnel.
+2024-06-28T08:17:05.557Z - LOG: Contenu du fichier
+2024-06-28T08:17:05.558Z - LOG: MODULE FS (FileSystem)
+
+Permet d'intéragir avec le système de fichiers de l'OS.

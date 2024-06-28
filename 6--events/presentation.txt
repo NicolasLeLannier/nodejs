@@ -1,0 +1,3 @@
+MODULE EVENTS
+
+Permet de travailler avec les événements et les émetteurs d'événements.
